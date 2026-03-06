@@ -9,3 +9,5 @@ joblib
 requests
 scikit-learn==1.7.2
 matplotlib
+gunicorn
+whitenoise

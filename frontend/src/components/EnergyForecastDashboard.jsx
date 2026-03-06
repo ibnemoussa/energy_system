@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:8000/api/forecast/run/";
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:8000/api/forecast/run/";
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
