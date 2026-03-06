@@ -1,0 +1,3 @@
+@echo off
+echo Starting AI Energy Forecast backend...
+C:\Users\Mahamat-Maina\anaconda3\envs\ML_2\python.exe manage.py runserver
